@@ -97,11 +97,10 @@ Built with **Tkinter** — a GUI that allows non-technical users to interact wit
 
 ## Results
 
-| Model | Accuracy |
-|-------|----------|
-| Random Forest (FFT features) | ~99% on synthetic test set |
-| CNN (raw signal) | ~97–99% on synthetic test set |
-
+| Model                        | Accuracy                   |
+|------------------------------|----------------------------|
+| Random Forest (FFT features) | 100% on synthetic test set |
+| CNN (raw signal)             | 100% on synthetic test set |
 Feature importance analysis shows the 3rd harmonic (150Hz) carries the highest discriminative weight, consistent with motor fault literature.
 
 ---
@@ -111,7 +110,7 @@ Feature importance analysis shows the 3rd harmonic (150Hz) carries the highest d
 - FFT-based feature engineering is a powerful bridge between signal processing and machine learning
 - Random Forest provides interpretability through feature importance — critical for engineering applications where explainability matters
 - 1D CNN can learn fault-relevant patterns directly from raw waveforms without domain-specific feature engineering
-- Synthetic physics-informed data is a valid starting point when real datasets are unavailable
+- Synthetic physics-informed data is a valid starting point when real datasets are unavailable — 100% accuracy on synthetic data is expected given the controlled generation process; real-world validation would require recorded motor current signals
 
 ---
 
