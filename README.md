@@ -101,6 +101,7 @@ Built with **Tkinter** — a GUI that allows non-technical users to interact wit
 |------------------------------|----------------------------|
 | Random Forest (FFT features) | 100% on synthetic test set |
 | CNN (raw signal)             | 100% on synthetic test set |
+
 Feature importance analysis shows the 3rd harmonic (150Hz) carries the highest discriminative weight, consistent with motor fault literature.
 
 ---
