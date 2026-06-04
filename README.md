@@ -128,7 +128,7 @@ Feature importance analysis shows the 3rd harmonic (150Hz) carries the highest d
 ## How to Run
 
 ```bash
-pip install numpy pandas matplotlib scikit-learn tensorflow
+pip install -r requirements.txt
 
 # Train models and view plots
 python motor_ai.py
